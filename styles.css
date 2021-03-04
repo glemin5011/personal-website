@@ -1,0 +1,21 @@
+/* MEDIA QUERIES */
+@media (min-width: 1200px) {
+    .container-fluid {
+        max-width: 1440px;
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+}
+@media (max-width: 743.98px) {
+.container-fluid {
+    padding-right: 24px;
+    padding-left: 24px;
+    }
+}
+nav.navbar {
+    max-width: 1440px; /* applying max-width */
+    margin: 0 auto; /* center */
+    padding-left: 80px;
+    padding-right: 80px;
+}
