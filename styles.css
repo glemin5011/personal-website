@@ -13,6 +13,112 @@
     padding-left: 24px;
     }
 }
+
+/* END MEDIA QUERIES */
+
+/* FONT KIT */
+
+@font-face {
+    font-family: 'ibm_plex_sansbold';
+    src: url('./webkit/ibmplexsans-bold-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sansbold_italic';
+    src: url('./webkit/ibmplexsans-bolditalic-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sansextralight';
+    src: url('./webkit/ibmplexsans-extralight-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sansXLtIt';
+    src: url('./webkit/ibmplexsans-extralightitalic-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sansitalic';
+    src: url('./webkit/ibmplexsans-italic-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sanslight';
+    src: url('./webkit/ibmplexsans-light-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sanslight_italic';
+    src: url('./webkit/ibmplexsans-lightitalic-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sansmedium';
+    src: url('./webkit/ibmplexsans-medium-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sansmedium_italic';
+    src: url('./webkit/ibmplexsans-mediumitalic-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sansregular';
+    src: url('./webkit/ibmplexsans-regular-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sanssemibold';
+    src: url('./webkit/ibmplexsans-semibold-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sanssemibold_italic';
+    src: url('./webkit/ibmplexsans-semibolditalic-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*END FONT KIT*/
+body {
+    font-family: 'ibm_plex_sansregular', Helvetica, sans-serif, sans-serif !important;
+  }
 nav.navbar {
     max-width: 1440px; /* applying max-width */
     margin: 0 auto; /* center */
