@@ -2,15 +2,15 @@
 @media (min-width: 1200px) {
     .container-fluid {
         max-width: 1440px;
-        padding-left: 80px;
-        padding-right: 80px;
+        padding-left: 80px !important;
+        padding-right: 80px !important;
 
     }
 }
 @media (max-width: 743.98px) {
-.container-fluid {
-    padding-right: 24px;
-    padding-left: 24px;
+    .container-fluid {
+    padding-right: 24px !important;
+    padding-left: 24px !important;
     }
 }
 
@@ -124,4 +124,29 @@ nav.navbar {
     margin: 0 auto; /* center */
     padding-left: 80px;
     padding-right: 80px;
+    border-bottom: 2px solid #282828;
 }
+.navbar-brand {
+    color: #282828 !important;
+}
+.nav-item {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.nav-link {
+    color: #282828 !important;
+}
+#nav-menu:hover {
+    color: #3e1bdb !important;
+    text-decoration: underline;
+}
+.main-text {
+    font-size: 4rem;
+    padding-bottom: 40px;
+}
+.sub-text {
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+

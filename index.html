@@ -12,26 +12,49 @@
     <title>Matej's Sandbox</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Matej's Development Sandbox</a>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand d-none d-md-flex" href="#">Matej's Development Sandbox</a>
+      <a class="navbar-brand d-flex d-md-none" href="#">Matej's Dev Sandbox</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+          <li class="nav-item mr-3">
+            <a class="nav-link" id="nav-menu" href="#home">Home</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#About-me">About</a>
+          <li class="nav-item mr-3">
+            <a class="nav-link" id="nav-menu" href="#about-me">About</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#Portfolio">Portfolio</a>
+          <li class="nav-item mr-3">
+            <a class="nav-link" id="nav-menu" href="#portfolio">Portfolio</a>
           </li>
         </ul>
       </div>
     </nav>
+
+
+    <!--HERO SECTION-->
+
+    <div id="hero" class="position-relative pt-3 mt-3 mb-4">
+      <div id="home" class="container-fluid mb-4">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+              <div class="cover-text">
+                <h1 class="main-text mb-2">Matej Palenik</h1>
+                <h3 class="sub-text">Full stack web developer.</h3>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="cover-image">
+                <img src="./images/Fintech graphic.svg" class="img-fluid" alt="Responsive image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
     
 
