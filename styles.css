@@ -1,0 +1,198 @@
+/* MEDIA QUERIES */
+@media (min-width: 1200px) {
+    .container-fluid {
+        max-width: 1440px;
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+
+    }
+}
+@media (max-width: 743.98px) {
+    .container-fluid {
+    padding-right: 24px !important;
+    padding-left: 24px !important;
+    }
+}
+
+
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+
+/* END MEDIA QUERIES */
+
+/* FONT KIT */
+
+@font-face {
+    font-family: 'ibm_plex_sansbold';
+    src: url('./webkit/ibmplexsans-bold-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sansbold_italic';
+    src: url('./webkit/ibmplexsans-bolditalic-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sansextralight';
+    src: url('./webkit/ibmplexsans-extralight-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sansXLtIt';
+    src: url('./webkit/ibmplexsans-extralightitalic-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sansitalic';
+    src: url('./webkit/ibmplexsans-italic-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sanslight';
+    src: url('./webkit/ibmplexsans-light-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sanslight_italic';
+    src: url('./webkit/ibmplexsans-lightitalic-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sansmedium';
+    src: url('./webkit/ibmplexsans-medium-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sansmedium_italic';
+    src: url('./webkit/ibmplexsans-mediumitalic-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sansregular';
+    src: url('./webkit/ibmplexsans-regular-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sanssemibold';
+    src: url('./webkit/ibmplexsans-semibold-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ibm_plex_sanssemibold_italic';
+    src: url('./webkit/ibmplexsans-semibolditalic-webfont.woff2') format('woff2'),
+         url('./webkit/ibmplexsans-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*END FONT KIT*/
+body {
+    font-family: 'ibm_plex_sansregular', Helvetica, sans-serif, sans-serif !important;
+  }
+nav.navbar {
+    max-width: 1440px; /* applying max-width */
+    margin: 0 auto; /* center */
+    padding-left: 80px;
+    padding-right: 80px;
+    border-bottom: 2px solid #282828;
+}
+.navbar-brand {
+    color: #282828 !important;
+}
+.nav-item {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.nav-link {
+    color: #282828 !important;
+}
+#nav-menu:hover {
+    color: #3e1bdb !important;
+    text-decoration: underline;
+}
+.main-text {
+    font-size: 4rem;
+    padding-bottom: 40px;
+}
+.sub-text {
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.description-text {
+    line-height: 2rem;
+}
+
+#github-button {
+    background-color: #6e5494;
+    border: 1px solid #282828;
+    color: white;
+}
+#linkedin-button {
+    background-color: #0072b1;
+    border: 1px solid #282828;
+    color: white;
+}
+.carousel-inner {
+    border: 1.5px solid #282828;
+    border-radius: 12px;
+    width: 400px;
+}
+#row_1_cloning {
+    background-color: #dde8f5;
+    
+    border-radius: 12px;
+}
