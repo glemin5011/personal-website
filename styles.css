@@ -14,6 +14,29 @@
     }
 }
 
+
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+
 /* END MEDIA QUERIES */
 
 /* FONT KIT */
@@ -149,4 +172,27 @@ nav.navbar {
     padding-top: 20px;
     padding-bottom: 40px;
 }
+.description-text {
+    line-height: 2rem;
+}
 
+#github-button {
+    background-color: #6e5494;
+    border: 1px solid #282828;
+    color: white;
+}
+#linkedin-button {
+    background-color: #0072b1;
+    border: 1px solid #282828;
+    color: white;
+}
+.carousel-inner {
+    border: 1.5px solid #282828;
+    border-radius: 12px;
+    width: 400px;
+}
+#row_1_cloning {
+    background-color: #dde8f5;
+    
+    border-radius: 12px;
+}
