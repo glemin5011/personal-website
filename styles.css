@@ -143,11 +143,16 @@ body {
     font-family: 'ibm_plex_sansregular', Helvetica, sans-serif, sans-serif !important;
   }
 nav.navbar {
-    max-width: 1440px; /* applying max-width */
     margin: 0 auto; /* center */
     padding-left: 80px;
     padding-right: 80px;
-    border-bottom: 2px solid #282828;
+    border-bottom: 1px solid #282828;
+} 
+@media (max-width: 743.98px) {
+    nav.navbar {
+    padding-right: 24px !important;
+    padding-left: 24px !important;
+    }
 }
 .navbar-brand {
     color: #282828 !important;
@@ -191,10 +196,14 @@ nav.navbar {
     width: 400px;
     box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
 }
-#row_1_cloning {
+#row-wrapper {
     box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
     border-radius: 12px;
 }
 #cloning-work {
     box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
+}
+#card-element {
+    box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
+    border-radius: 12px;
 }
