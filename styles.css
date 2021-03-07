@@ -207,3 +207,10 @@ nav.navbar {
     box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
     border-radius: 12px;
 }
+.footerlink {
+    color: #282828 !important;
+}
+.footerlink:hover {
+    color: #3e1bdb !important;
+    text-decoration: underline;
+}
