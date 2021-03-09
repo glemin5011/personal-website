@@ -196,13 +196,11 @@ nav.navbar {
     width: 400px;
     box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
 }
-#row-wrapper {
+.row-wrapper {
     box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
     border-radius: 12px;
 }
-#cloning-work {
-    box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
-}
+
 #card-element {
     box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
     border-radius: 12px;
